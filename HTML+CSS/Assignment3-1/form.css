@@ -1,0 +1,95 @@
+body {
+    background: url(coll.jpg);
+
+background-size: 100% 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+.text-box
+{
+	width:600px;
+	position:absolute;
+	top:200px;
+	left:100px;
+	color:#fff;
+	animation: textup 5s linear infinite;
+	transform: translate(100px);
+	animation-delay:2s;
+	
+	
+}
+.text-box h1{
+	
+	margin:40px;
+	text-align:center;
+	color: green;
+	font-size:60px;
+}
+.text-box p{
+	
+	font-size:14px;
+	line-height:18px;
+	margin-top:80px;
+	text-align:center;
+	color: black;
+	font-family:bold;
+}
+.text-box span{
+	
+	background-color:red;
+	height:1px;
+	width:100px;
+	position:absolute;
+	left:0;
+	text-align:center;
+	
+}
+@keyframes textup{
+	
+	10%{
+		transform: translate(0px);
+	}
+	100%{
+		transform: translate(0px);
+		
+	}
+	
+}
+
+.button {
+    position: fixed;
+    bottom: 300px;
+    left: 80%;
+    margin-left: -104.5px; /*104.5px is half of the button's width*/
+	text-decoration:none;
+	background-color: green;
+	display: inline-block;
+  font-size: 30px;
+}
